@@ -52,11 +52,16 @@ public class Login extends javax.swing.JFrame {
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("X");
 
-        jTextField1.setText("jTextField1");
+        jTextField1.setForeground(new java.awt.Color(153, 153, 153));
+        jTextField1.setText("Usuario/Correo electronico");
 
-        jTextField2.setText("jTextField1");
+        jTextField2.setForeground(new java.awt.Color(153, 153, 153));
+        jTextField2.setText("Contrasna");
 
-        jTextField3.setText("jTextField1");
+        jTextField3.setBackground(new java.awt.Color(182, 206, 206));
+        jTextField3.setForeground(new java.awt.Color(153, 153, 153));
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3.setText("Inicio sesion");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
